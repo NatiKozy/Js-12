@@ -1,0 +1,46 @@
+body{
+    background-color: #c5ebde;
+}
+
+h1{
+    text-align: center;
+    color: #06533a;
+}
+
+h2{
+    color: #06533a;
+}
+
+label{
+    font-weight: bold;
+    color: #03251a;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+}
+
+#userInputs{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#button{
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #14885f;
+    color: #c5ebde;
+    height: 30px;
+}
+
+#chat{
+    display: flex;
+    flex-direction: column;
+}
+
+img{
+    width: 300px;
+}
